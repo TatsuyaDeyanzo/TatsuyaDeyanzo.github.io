@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
   <meta property='og:type' content='website'>
-  <meta property='og:title' content='WebデザイナーTARO YAMADA ポートフォリオ'>
+  <meta property='og:title' content='エンジニア TATSUYA SAKAMOTO ポートフォリオ'>
   <meta property='og:url' content='URLが入る'>
-  <meta property='og:description' content='Webデザイナー TARO YAMADAのポートフォリオサイトです！'>
+  <meta property='og:description' content='エンジニア TATSUYA SAKAMOTOのポートフォリオサイトです！'>
   <meta property="og:image" content="img/ogp.png">
-  <meta name="description" content="Webデザイナー TARO YAMADAのポートフォリオサイトです！" />
-  <title>Webデザイナー TARO YAMADA ポートフォリオ</title>
+  <meta name="description" content="エンジニア TATSUYA SAKAMOTOのポートフォリオサイトです！" />
+  <title>エンジニア TATSUYA SAKAMOTO ポートフォリオ</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
   <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
@@ -25,9 +25,8 @@
     <!-- .gnav -->
     <nav class="gnav" class="fixed">
       <ul class="gnav-list">
+        <li class="gnav-item"><a class="gnav-link" href="#about-section">PROFILE</a></li>
         <li class="gnav-item"><a class="gnav-link" href="#works-section">WORKS</a></li>
-        <li class="gnav-item"><a class="gnav-link" href="#feature-section">FEATURE</a></li>
-        <li class="gnav-item"><a class="gnav-link" href="#about-section">ABOUT</a></li>
         <li class="gnav-item"><a class="gnav-link" href="#skill-section">SKILL</a></li>
         <li class="gnav-item"><a class="gnav-link" href="#contact-section">CONTACT</a></li>
       </ul>
@@ -37,13 +36,42 @@
     <!-- .header -->
     <header class="header">
       <h1 class="logo">
-        <div class="logo-title">TARO YAMADA</div>
+        <div class="logo-title">TATSUYA SAKAMOTO</div>
         <div class="logo-subtitle">PORTFOLIO</div>
+		<img src="img/placeholder4x3.png" data-src="img/works/company.jpg" alt="" />
       </h1>
     </header>
     <!-- /.header -->
 
     <main class="content">
+
+
+      <!-- .about-section -->
+      <section class="about-section section" id="about-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">PROFILE</h2>
+          </div>
+          <div class="section-body about">
+            <div class="about-item">
+              <div class="about-image-wrapper">
+                <img class="about-image lazyload fadein" data-src="img/about/profile.png" alt="">
+              </div>
+              <div class="about-body">
+                <p>
+                  初めまして。エンジニアの坂本達哉と申します。<br>
+				  新卒ではシリコンスタジオ株式会社に入社し、主にコンシューマゲーム・ソーシャルゲームの開発に携わりました。ブレイブリーデフォルト フォーザ・シークウェル、ブレイブリーセカンド、ブレイブリーセカンド海外版、パレットパレードを世に送り出しました。
+                </p>
+                <p>
+                  C++が業務経験としては長いですが、直近の開発は TypeScriptとPixiJSで開発を行っておりました。Gitでのバージョン管理はもちろん、Jenkinsでの自動化や効率化にも興味があります。<br>
+				  今はUnityで趣味のゲームを開発しながら転職活動中です。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.about-section -->
 
       <!-- .works-section -->
       <section class="works-section section" id="works-section">
@@ -52,144 +80,63 @@
             <h2 class="heading-primary">WORKS</h2>
           </div>
           <div class="section-lead">
-            <p>Web（デザインとコーディング）制作の記録です。<br>デザイン練習用の架空サイト（ファーストビューのみ）も含んでおります。</p>
+            <p>ゲーム制作の記録です。<br>コードは公開できないのですが、担当箇所を追記しております。</p>
           </div>
           <div class="section-body works">
             <div class="works-list js-my-gallery">
               <figure class="works-item">
-                <a href="img/works/company.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
-                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/company.jpg"
+                <a href="img/works/bdfts.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/bdfts.jpg"
                     alt="" />
                 </a>
                 <figcaption class="works-body">
-                  <div class="works-title">サイト名が入る</div>
-                  <div class="works-text">Design / Coding(Responsive) / WordPress</div>
-                  <div class="works-url"><a class="works-url-link" href="https://yahoo.co.jp" target="_blank">Link</a>
+                  <div class="works-title">ブレイブリーデフォルト フォーザ・シークウェル</div>
+                  <div class="works-text">クエストメニュー</div>
+                  <div class="works-url"><a class="works-url-link" href="https://www.jp.square-enix.com/game/detail/bdfts/" target="_blank">Link</a>
                   </div>
                 </figcaption>
               </figure>
               <figure class="works-item">
-                <a href="img/works/hairsalon.jpg" data-size="960x720"
+                <a href="img/works/second.jpg" data-size="960x720"
                   class="works-image-wrapper works-link hover-action">
                   <img class="works-image lazyload fadein" src="img/placeholder4x3.png"
-                    data-src="img/works/hairsalon.jpg" alt="" />
+                    data-src="img/works/second.jpg" alt="" />
                 </a>
                 <figcaption class="works-body">
-                  <div class="works-title">サイト名が入る</div>
-                  <div class="works-text">Design / Coding(Responsive) </div>
-                  <div class="works-url"><a class="works-url-link" href="https://yahoo.co.jp" target="_blank">Link</a>
+                  <div class="works-title">ブレイブリーセカンド</div>
+                  <div class="works-text">月面復興 マップ UI画面補助</div>
+                  <div class="works-url"><a class="works-url-link" href="https://www.jp.square-enix.com/game/detail/b2nd/" target="_blank">Link</a>
                   </div>
                 </figcaption>
               </figure>
               <figure class="works-item">
-                <a href="img/works/girly.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
-                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/girly.jpg"
+                <a href="img/works/second.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/second.jpg"
                     alt="" />
                 </a>
                 <figcaption class="works-body">
-                  <div class="works-title">サイト名が入る</div>
-                  <div class="works-text">Design</div>
+                  <div class="works-title">ブレイブリーセカンド 海外版</div>
+                  <div class="works-text">月面復興 マップ イベントビューワ バトルスクリプト ビルド自動化 UI画面補助</div>
                 </figcaption>
               </figure>
               <figure class="works-item">
-                <a href="img/works/school.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
-                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/school.jpg"
+                <a href="img/works/paletteparade.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/paletteparade.jpg"
                     alt="" />
                 </a>
                 <figcaption class="works-body">
-                  <div class="works-title">サイト名が入る</div>
-                  <div class="works-text">Design</div>
+                  <div class="works-title">パレットパレード</div>
+                  <div class="works-text">ルーム UI画面補助</div>
+                  <div class="works-url"><a class="works-url-link" href="https://paletteparade.com/" target="_blank">Link</a>
+                  </div>
                 </figcaption>
               </figure>
-              <figure class="works-item">
-                <a href="img/works/game.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
-                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/game.jpg"
-                    alt="" />
-                </a>
-                <figcaption class="works-body">
-                  <div class="works-title">サイト名が入る</div>
-                  <div class="works-text">Design</div>
-                </figcaption>
-              </figure>
-              <figure class="works-item">
-                <a href="img/works/fashion.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
-                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/fashion.jpg"
-                    alt="" />
-                </a>
-                <figcaption class="works-body">
-                  <div class="works-title">サイト名が入る</div>
-                  <div class="works-text">Design</div>
-                </figcaption>
-              </figure>
+
             </div>
           </div>
         </div>
       </section>
       <!-- /.works-section -->
-
-      <!-- .feature-section -->
-      <section class="feature-section section" id="feature-section">
-        <div class="inner">
-          <div class="section-heading">
-            <h2 class="heading-primary">FEATURE</h2>
-          </div>
-          <div class="section-lead">
-            <p>
-              １サイトの解説
-            </p>
-          </div>
-          <div class="section-body feature">
-            <div class="feature-item">
-              <div class="feature-image-wrapper">
-                <a href="https://www.yahoo.co.jp/" target="_blank" class="hover-action"><img clas="feature-image"
-                    src="img/feature/feature.jpg" alt=""></a>
-              </div>
-              <div class="feature-body">
-                <p>
-                  <span class="text-bold">サイト名：</span><br>サイト名が入る<br><a href="#" target="_blank">https://●●●.com</a></p>
-                <p><span class="text-bold">担当：</span><br>Design / Coding (Responsive) / WordPress / Writing</p>
-                <p><span
-                    class="text-bold">コメント：</span><br>テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                </p>
-                <p>
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /.feature-section -->
-
-      <!-- .about-section -->
-      <section class="about-section section" id="about-section">
-        <div class="inner">
-          <div class="section-heading">
-            <h2 class="heading-primary">ABOUT</h2>
-          </div>
-          <div class="section-lead">
-            <p>
-              こんにちは！
-            </p>
-          </div>
-          <div class="section-body about">
-            <div class="about-item">
-              <div class="about-image-wrapper">
-                <img class="about-image lazyload fadein" data-src="img/about/profile.jpg" alt="">
-              </div>
-              <div class="about-body">
-                <p>
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                </p>
-                <p>
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /.about-section -->
 
       <!-- .skill-section -->
       <section class="skill-section section" id="skill-section">
@@ -199,87 +146,100 @@
           </div>
           <div class="section-lead">
             <p>
-              未経験ですが頑張ります！
+              学生時代から勉強してきたC++をベースに、ソーシャルゲームを作る際や業務効率化など必要に応じて習得していきました。
             </p>
           </div>
           <div class="section-body skill">
             <div class="skill-list">
               <div class="skill-item">
                 <div class="skill-image-wrapper">
-                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
+                  <img class="skill-image" src="img/skill/C++.png" alt="">
                 </div>
                 <div class="skill-body">
-                  <h3 class="skill-title">HTML5/CSS3</h3>
+                  <h3 class="skill-title">C++</h3>
                   <div class="skill-rating rating">
                     <div class="rate rate4"></div>
                   </div>
                   <p>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    学生時代から触っていて、新卒後の数年はコンシューマ開発に使っておりました。馴染みのある言語ですので一通りのことはできるかと</p>
                 </div>
               </div>
               <div class="skill-item">
                 <div class="skill-image-wrapper">
-                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
+                  <img class="skill-image" src="img/skill/type.png" alt="">
                 </div>
                 <div class="skill-body">
-                  <h3 class="skill-title">JavaScript</h3>
+                  <h3 class="skill-title">TypeScript</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate5"></div>
+                  </div>
+                  <p>
+                    JavaScriptの亜種のようなものです、直近の開発でみっちり使用しました。</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/subversion.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Subversion</h3>
                   <div class="skill-rating rating">
                     <div class="rate rate3"></div>
                   </div>
                   <p>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    Gitが浸透する前の、学生時代とコンシューマ開発時に使用しておりました。慣れ親しんだツールなので今でも使用可能です</p>
                 </div>
               </div>
               <div class="skill-item">
                 <div class="skill-image-wrapper">
-                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
+                  <img class="skill-image" src="img/skill/git.png" alt="">
                 </div>
                 <div class="skill-body">
-                  <h3 class="skill-title">WordPress</h3>
+                  <h3 class="skill-title">Git</h3>
                   <div class="skill-rating rating">
                     <div class="rate rate4"></div>
                   </div>
                   <p>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    直近の開発と個人で開発しているUnityでも使用しております。今ではぼちぼち慣れて活用しております。</p>
                 </div>
               </div>
               <div class="skill-item">
                 <div class="skill-image-wrapper">
-                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
+                  <img class="skill-image" src="img/skill/unity.png" alt="">
                 </div>
                 <div class="skill-body">
-                  <h3 class="skill-title">Photoshop</h3>
+                  <h3 class="skill-title">C# Unity</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate2"></div>
+                  </div>
+                  <p>
+                    業務での経験はないですが、軽いゲームを趣味でいくつか作りました。個人的に完成させたいゲームがあるので今でも触っております。</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/jenkins-1.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Jenkins</h3>
                   <div class="skill-rating rating">
                     <div class="rate rate4"></div>
                   </div>
                   <p>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    ROMの提出が多くなってきた際にお世話になりました。問題なく動かせるように保守したり、合わせてマクロプログラムを作ってエラーチェックを行ったり、バッチを動かす以外の事も経験しました。</p>
                 </div>
               </div>
               <div class="skill-item">
                 <div class="skill-image-wrapper">
-                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
+                  <img class="skill-image" src="img/skill/bag.png" alt="">
                 </div>
                 <div class="skill-body">
-                  <h3 class="skill-title">Illustrator</h3>
+                  <h3 class="skill-title">etc</h3>
                   <div class="skill-rating rating">
                     <div class="rate rate3"></div>
                   </div>
                   <p>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-image-wrapper">
-                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
-                </div>
-                <div class="skill-body">
-                  <h3 class="skill-title">XD</h3>
-                  <div class="skill-rating rating">
-                    <div class="rate rate3"></div>
-                  </div>
-                  <p>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    その他 Excel での VBA, JavaScript, Perl 等 プロジェクト内で業務経験はあります。</p>
                 </div>
               </div>
             </div>
@@ -296,21 +256,11 @@
           </div>
           <div class="section-lead">
             <p>
-              お問い合わせは、<br class="sp-only">SNSかメールでお願いいたします。
+              お問い合わせは、<br class="sp-only">メールでお願いいたします。
             </p>
           </div>
           <div class="section-body contact">
-            <ul class="contact-list">
-              <li class="contact-item">
-                <a class="contact-link" href="https://twitter.com/" target="_blank"><img class="contact-image"
-                    src="img/contact/icon_tw.png" alt=""></a>
-              </li>
-              <li class="contact-item">
-                <a class="contact-link" href="https://www.facebook.com/" target="_blank"><img class="contact-image"
-                    src="img/contact/icon_fb.png" alt=""></a>
-              </li>
-            </ul>
-            <div class="contact-text">xxxxxx@gmail.com</div>
+            <div class="contact-text">midori3.tatsuya@gmail.com</div>
           </div>
         </div>
       </section>
@@ -324,7 +274,7 @@
         トップへもどる
       </div>
       <div class="inner">
-        <div class="copyright">Copyright&copy;TARO YAMADA. All Rights Reserved.</div>
+        <div class="copyright">Copyright&copy;TATSUYA SAKAMOTO. All Rights Reserved.</div>
       </div>
     </footer>
     <!-- /.footer -->
